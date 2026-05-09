@@ -62,9 +62,20 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-[#2c2c2c] text-center">
+      <div className="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-[#2c2c2c] flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
         <p className="text-sm text-gray-500">
-          © 2025 APPEXE DEVELOPMENTS LTD. All rights reserved.
+          © 2026 APPEXE DEVELOPMENTS LTD. All rights reserved.
+        </p>
+        <p className="text-sm text-gray-500">
+          Designed by{" "}
+          <a
+            href="https://linkedo.co.uk/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-orange-400 hover:underline decoration-orange-400 underline-offset-4"
+          >
+            Linkedo
+          </a>
         </p>
       </div>
     </footer>

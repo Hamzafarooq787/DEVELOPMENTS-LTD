@@ -102,21 +102,19 @@ export default function ContactPage() {
             </p>
           </div>
 
-          {/* Map Integration Section (Visual Anchor) */}
-          <div className="md:col-span-12 rounded-xl overflow-hidden border border-[#2c2c2c] h-[450px] relative">
-            <img
-              className="w-full h-full object-cover grayscale contrast-125 opacity-40"
-              alt="Aerial map of Stoke-on-Trent development area"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeFpOtKfx1XwSA57jh7A7Mm8ZUycAxVcD26oAgK0GsfSpOjVi2UNYAKZUVHmHgjmEH-o6b0DZ8pfgx-q4q3PcjfKHVK7lpaB_Lq4zYvkkhk0LdprODPHbM57DdGmiT7pgKm43Sy9C-3u-kMhCRH4dml8F2TAZ-szhzejS0mNcnNVb5hCQ0owdbmbifX9MK30mc4j3jR6RviDt7XusZxvHDVWjfZDc_CCRkQw0TttyKnOw6X5XFbArCfmyQIkAbseF6LUGG2ULIgCw"
+          {/* Map Integration Section (Real Google Map) */}
+          <div className="md:col-span-12 rounded-xl overflow-hidden border border-[#2c2c2c] h-[320px] sm:h-[400px] md:h-[450px] relative">
+            <iframe
+              title="APPEXE Developments Ltd Office Location"
+              src="https://www.google.com/maps?q=118+Greengates+Street,+Stoke-on-Trent,+ST6+6DE&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full h-full"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent"></div>
-            <div className="absolute bottom-8 left-8 bg-[#1a1a1a] p-6 rounded-xl border border-[#2c2c2c] shadow-sm max-w-xs">
-              <div className="flex items-center gap-3 mb-3">
-                <span className="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></span>
-                <span className="font-semibold text-sm text-gray-400">LOCAL PRESENCE</span>
-              </div>
-              <p className="text-base font-semibold text-white">Stoke-on-Trent Regional Operations</p>
-            </div>
           </div>
 
           {/* Stats/Counters Module – with animation */}

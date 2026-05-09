@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 
 export default function AboutPage() {
   // Animated counters for stats box
@@ -123,9 +124,9 @@ export default function AboutPage() {
                   Our quality control protocols exceed industry standards. Every weld, bolt, and slab is inspected through multi-stage structural audits to ensure the integrity of your investment.
                 </p>
               </div>
-              <div className="mt-8 flex items-center text-orange-400 font-semibold uppercase text-sm group cursor-pointer">
+              <Link href="/services" className="mt-8 flex items-center text-orange-400 font-semibold uppercase text-sm group cursor-pointer">
                 READ OUR STANDARDS <span className="material-symbols-outlined ml-2 transition-transform group-hover:translate-x-1">arrow_forward</span>
-              </div>
+              </Link>
             </div>
 
             {/* Feature 2 */}
@@ -212,12 +213,12 @@ export default function AboutPage() {
           <h2 className="text-4xl md:text-5xl font-bold text-white">Let's build something exceptional together.</h2>
           <p className="text-lg text-gray-200">Our consultants are ready to discuss your next structural challenge.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-orange-800 px-8 py-4 font-semibold text-sm rounded uppercase hover:bg-gray-100 transition">
+            <Link href="/contact" className="bg-white text-orange-800 px-8 py-4 font-semibold text-sm rounded uppercase hover:bg-gray-100 transition text-center">
               Start Your Project
-            </button>
-            <button className="border-2 border-orange-300 text-orange-300 px-8 py-4 font-semibold text-sm rounded uppercase hover:bg-orange-500/10 transition-colors">
+            </Link>
+            <Link href="/services" className="border-2 border-orange-300 text-orange-300 px-8 py-4 font-semibold text-sm rounded uppercase hover:bg-orange-500/10 transition-colors text-center">
               View Case Studies
-            </button>
+            </Link>
           </div>
         </div>
       </section>
