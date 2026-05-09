@@ -54,9 +54,9 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <button className="bg-orange-600 text-white font-semibold text-sm px-6 py-3 rounded uppercase transition-transform active:scale-95 hover:bg-orange-700">
+            <Link href="/contact" className="bg-orange-600 text-white font-semibold text-sm px-6 py-3 rounded uppercase transition-transform active:scale-95 hover:bg-orange-700">
               Get a Quote
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -102,9 +102,13 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <button className="mt-4 bg-orange-600 text-white font-semibold text-sm px-6 py-3 rounded uppercase w-full text-center hover:bg-orange-700 transition">
+            <Link
+              href="/contact"
+              onClick={() => setIsOpen(false)}
+              className="mt-4 bg-orange-600 text-white font-semibold text-sm px-6 py-3 rounded uppercase w-full text-center hover:bg-orange-700 transition"
+            >
               Get a Quote
-            </button>
+            </Link>
           </div>
         </div>
       </div>
