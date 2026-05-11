@@ -61,7 +61,7 @@ export default function Home() {
     { q: "How long does a typical commercial project take?", a: "Timelines vary based on scale. A mid-sized office fit-out takes 8–12 weeks, while a full new-build may take 6–18 months. We provide detailed schedules upfront." },
     { q: "Are you fully insured and accredited?", a: "Yes – we hold £10M public liability insurance, CHAS, Constructionline, ISO 9001, and Safe Contractor accreditation." },
     { q: "Do you offer design & build services?", a: "Absolutely. From initial architectural concepts to final handover, our in-house team manages every stage of the design & build process." },
-    { q: "How do I request a quote?", a: "Simply click the 'Get a Quote' button or email us at sales@appexedevelopments.co.uk. We'll arrange a site survey within 48 hours." },
+    { q: "How do I request a quote?", a: "Simply click the 'Get a Quote' button or email us at appexedevelopments.co.uk. We'll arrange a site survey within 48 hours." },
     { q: "What is your warranty policy?", a: "All our work comes with a 12-month defects liability period, plus structural guarantees up to 10 years on major projects." }
   ];
 
