@@ -42,9 +42,9 @@ export default function Footer() {
 
           <a
             className="block text-sm text-orange-400 hover:underline decoration-orange-400 underline-offset-4"
-            href="mailto:sales@appexedevelopments.co.uk"
+            href="mailto:appexedevelopments.co.uk"
           >
-            sales@appexedevelopments.co.uk
+            appexedevelopments.co.uk
           </a>
 
           <div className="flex justify-center md:justify-start gap-4 mt-6">

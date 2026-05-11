@@ -93,9 +93,9 @@ export default function ContactPage() {
             <h2 className="text-3xl font-bold mb-4 text-white">Email Us</h2>
             <a
               className="text-xl font-semibold text-orange-400 break-all hover:underline decoration-orange-400 underline-offset-8 transition-all"
-              href="mailto:sales@appexedevelopments.co.uk"
+              href="mailto:appexedevelopments.co.uk"
             >
-              sales@appexedevelopments.co.uk
+              appexedevelopments.co.uk
             </a>
             <p className="text-base text-gray-400 mt-8">
               Our team typically responds to all inquiries within 24 business hours. For urgent project quotes, please use our direct email.
