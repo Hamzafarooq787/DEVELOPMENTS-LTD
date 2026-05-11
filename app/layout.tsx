@@ -19,6 +19,29 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "APPEXE DEVELOPMENTS LTD | Premium Construction & Engineering",
   description: "Building the future with integrity – commercial, residential & civil engineering.",
+  metadataBase: new URL("https://appexedevelopments.co.uk"),
+  openGraph: {
+    title: "APPEXE DEVELOPMENTS LTD | Premium Construction & Engineering",
+    description: "Building Spaces. Creating Futures. Quality construction, built on trust, delivering excellence.",
+    url: "https://appexedevelopments.co.uk",
+    siteName: "APPEXE DEVELOPMENTS LTD",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "APPEXE DEVELOPMENTS LTD – Building Spaces. Creating Futures.",
+      },
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "APPEXE DEVELOPMENTS LTD | Premium Construction & Engineering",
+    description: "Building Spaces. Creating Futures. Quality construction, built on trust, delivering excellence.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
